@@ -63,6 +63,10 @@ canvas{
   outline:none;
 }
 
+#nameInput {
+  text-align: center;
+}
+
 .bottom-bar input:focus{
   border-color:#111;
 }

@@ -67,7 +67,7 @@ function draw() {
     ctx.drawImage(bgImage, 0, 0, W, H);
   }
 
-  const text = nameInput.value || 'اكتب اسمك';
+  const text = nameInput.value || 'Enter your name';
 
   const fontSize = fitFont(text, BOX.w - 20);
 
